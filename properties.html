@@ -1,0 +1,323 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Properties</title>
+    <link rel="stylesheet" href="./style.properties.css">
+    <script src="./myfunction.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+</head>
+<body>
+    <section class="mt-table">
+        <table>
+            <thead>
+                <tr>
+                    <th>اختيار</th>
+                    <th>إظهار التفاصيل</th>
+                    <th>الإيجار الشهري</th>
+                    <th>التفاصيل</th>
+                    <th>المدينة</th>
+                </tr>
+            </thead>
+            <tbody id="flats">
+                <tr>
+                    <td><input type="radio" name="row1" onclick="enableButton()"></td>
+                    <td><input type="checkbox" class="show-details"></td>
+                    <td>500,000</td>
+                    <td>شقة غرفة وصالة 70م</td>
+                    <td>دمشق</td>
+                </tr>
+                <tr class="details-row">
+                    <td colspan="5">
+                        <div class="info">
+                            <ul class="text">
+                                <li>الطابق الثالث</li>
+                                <li>متوفر كراج</li>
+                                <li>المنطقة: ركن الدين</li>
+                                <li>مفروشة</li>
+                                <li>بلكون مساحة 12م</li>
+                                <li>الملكية طابو</li>
+                            </ul>
+                            <div class="images">
+                                <img src="./pictures/تنزيل (22).jpeg">
+                                <img src="./pictures/تنزيل (27).jpeg">
+                                <img src="./pictures/تنزيل (28).jpeg">
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="row2" onclick="enableButton()"></td>
+                    <td><input type="checkbox" class="show-details"></td>
+                    <td>1,000,000</td>
+                    <td>شقة غرفتين وصالة 100م</td>
+                    <td>دمشق</td>
+                </tr>
+                <tr class="details-row">
+                    <td colspan="5">
+                        <div class="info">
+                            <ul class="text">
+                                <li>الطابق الأول</li>
+                                <li>متوفر كراج</li>
+                                <li>المنطقة: شارع العابد</li>
+                                <li>مفروشة</li>
+                                <li>بلكون مساحة 15م</li>
+                                <li>الملكية طابو</li>
+                            </ul>
+                            <div class="images">
+                                <img src="./pictures/902b69ad-ef4e-4acd-951a-771eca8b6829.jpeg">
+                                <img src="./pictures/Ho-2.jpg">
+                                <img src="./pictures/تنزيل (29).jpeg">
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="details-row">
+                    <td> <input type="radio"name="row4" onclick="enablebutton()" ></td>
+                    <td> <input type="checkbox" class="show-details"></td>
+                    <td> 6,000,000</td>
+                    <td> شقة 3غرف وصالتين 250م </td>
+                    <td> دمشق </td>
+                </tr>
+                <tr class="details-row">
+                    <td colspan="5">
+                        <div class="info">
+                            <ul class="text">
+                                <li> الطابق الأول </li>
+                                <li> متوفر كراج </li>
+                                <li> المنطقة: شارع عدنان المالكي </li>
+                                <li> مفروشة </li>
+                                <li> بلكون مساحة 30م</li>
+                                <li> الملكية: طابو </li>
+                            </ul>
+                            <div class="images">
+                                <img src="./pictures/Unique Moroccan Home Design.jpeg">
+                                <img src="./pictures/c2fca14a-a972-452c-bcb8-ebc5e6e9cc80.jpeg">
+                                <img src="./pictures/تنزيل (16).jpeg">
+                            </div>
+                        </div>        
+                    </td>
+                 </tr>
+                 <tr class="details-row">
+                    <td> <input type="radio"name="row5" onclick="enablebutton()" ></td>
+                    <td> <input type="checkbox" class="show-details"></td>
+                    <td> 2,000,000</td>
+                    <td> شقة غرفتين وصالة 80م</td>
+                    <td> دمشق </td>
+                 </tr>  
+                 <tr class="details-row">
+                    <td colspan="5">
+                        <div class="info">
+                            <ul class="text">
+                                <li> الطابق الثاني </li>
+                                <li> غير متوفر كراج </li>
+                                <li> المنطقة: التضامن- مسبقة الصنع</li>
+                                <li> غير مفروشة</li>
+                                <li> بلكون مساحة 10م</li>
+                                <li> الملكية: طابو </li>
+                            </ul>
+                            <div class="images">
+                                <img src="./pictures/beaa1c8a-7e4e-4814-a98e-daba32882f16.jpeg">
+                                <img src="./pictures/images (3).jpeg">
+                                <img src="./pictures/images (4).jpeg">
+                            </div>
+                        </div>
+                    </td>
+                 </tr>   
+                 <tr class="details-row" >
+                    <td> <input type="radio" name="row6" onclick="enablebutton()"></td>
+                    <td> <input type="checkbox" class="show-details"></td>
+                    <td> 950,000</td>
+                    <td> شقة غرفة وصالة 75م </td>
+                    <td> دمشق </td>
+                 </tr>  
+                 <tr class="details-row">
+                    <td colspan="5">
+                        <div class="info">
+                            <ul class="text">
+                                <li> الطابق الثالث </li>
+                                <li> غير متوفر كراج </li>
+                                <li> المنطقة: شارع خالد ابن الوليد </li>
+                                <li> مفروشة </li>
+                                <li> بلكون 10م</li>
+                                <li> الملكية: طابو </li>
+                            </ul>
+                            <div class="images">
+                                <img src="./pictures/تنزيل (18).jpeg">
+                                <img src="./pictures/تنزيل (23).jpeg">
+                                <img src="./pictures/تنزيل (25).jpeg">
+                             </div>
+                        </div>
+                    </td>
+                 </tr>  
+                 <tr class="details-row" >
+                    <td> <input type="radio" name="row7" onclick="enablebutton()" ></td>
+                    <td> <input type="checkbox" class="show-details"></td>
+                    <td> 1,000,000</td>
+                    <td> شقة 3غرف وصالة 120م</td>
+                    <td> دمشق </td>
+                 </tr>  
+                 <tr class="details-row">
+                    <td colspan="5">
+                        <div class="info">
+                            <ul class="text">
+                                <li> الطابق الأول </li>
+                                <li>  متوفر كراج </li>
+                                <li> المنطقة: الجزماتية </li>
+                                <li> مفروشة </li>
+                                <li> بلكون 15م</li>
+                                <li> الملكية: طابو </li>
+                            </ul>
+                            <div class="images">
+                                <img src="./pictures/download (2).jpeg">
+                                <img src="./pictures/download.jpeg">
+                                <img src="./pictures/تنزيل (19).jpeg">
+                             </div>
+                        </div>
+                    </td>
+                 </tr>  
+                 <tr class="details-row" >
+                    <td> <input type="radio" name="row8" onclick="enablebutton()" ></td>
+                    <td> <input type="checkbox" class="show-details"></td>
+                    <td> 650,000 </td>
+                    <td> شقة غرفتين وصالة 200م</td>
+                    <td> ريف دمشق </td>
+                 </tr>  
+                 <tr class="details-row">
+                    <td colspan="5">
+                        <div class="info">
+                            <ul class="text">
+                                <li> الطابق الأول </li>
+                                <li>  غير متوفر كراج </li>
+                                <li> المنطقة: يلدا </li>
+                                <li> مفروشة </li>
+                                <li> بلكون 20</li>
+                                <li> الملكية: طابو </li>
+                            </ul>
+                            <div class="images">
+                                <img src="./pictures/4414e8c7-561d-4364-a186-8ab001b56863.jpeg">
+                                <img src="./pictures/cbfec35d-8f1b-4c17-b71c-858c87e73018.jpeg">
+                                <img src="./pictures/Ho-22.jpg">
+                             </div>
+                        </div>
+                    </td>
+                 </tr>  
+                 <tr class="details-row" >
+                    <td> <input type="radio" name="row9" onclick="enablebutton()" ></td>
+                    <td> <input type="checkbox" class="show-details"></td>
+                    <td> 5,000,000</td>
+                    <td> شقة 3غرف وصالتين 240م</td>
+                    <td>  دمشق </td>
+                 </tr>  
+                 <tr class="details-row">
+                    <td colspan="5">
+                        <div class="info">
+                            <ul class="text">
+                                <li> الطابق الرابع </li>
+                                <li>  غير متوفر كراج </li>
+                                <li> المنطقة: باب مصلى </li>
+                                <li> غير مفروشة </li>
+                                <li> بلكون 17م</li>
+                                <li> الملكية: طابو </li>
+                            </ul>
+                            <div class="images">
+                                <img src="./pictures/7d51db94-e610-4045-a2b9-baf9f2b7c1b7.jpeg">
+                                <img src="./pictures/Ho-333.jpg">
+                                <img src="./pictures/kitchen.jpeg">
+                             </div>
+                        </div>
+                    </td>
+                 </tr>  
+                 <tr class="details-row" >
+                    <td> <input type="radio" name="row10" onclick="enablebutton()"></td>
+                    <td> <input type="checkbox" class="show-details"></td>
+                    <td> 5,000,000</td>
+                    <td> شقة غرفتين وصالة 180م</td>
+                    <td>  دمشق </td>
+                 </tr>  
+                 <tr class="details-row">
+                    <td colspan="5">
+                        <div class="info">
+                            <ul class="text">
+                                <li> الطابق الثاني </li>
+                                <li>   متوفر كراج </li>
+                                <li> المنطقة: الروضة </li>
+                                <li>  مفروشة </li>
+                                <li> بلكون 20م</li>
+                                <li> الملكية: طابو </li>
+                            </ul>
+                            <div class="images">
+                                <img src="./pictures/Ho-2222.jpg">
+                                <img src="./pictures/Ho-222222.jpg">
+                                <img src="./pictures/تنزيل (16)new.jpeg">
+                             </div>
+                        </div>
+                    </td>
+                 </tr>  
+                 <tr class="details-row" >
+                    <td> <input type="radio" name="row11" onclick="enablebutton()" ></td>
+                    <td> <input type="checkbox" class="show-details"></td>
+                    <td> 6,500,000</td>
+                    <td> شقة 3 غرف وصالة 200م</td>
+                    <td>  دمشق </td>
+                 </tr>  
+                 <tr class="details-row">
+                    <td colspan="5">
+                        <div class="info">
+                            <ul class="text">
+                                <li> الطابق الأول </li>
+                                <li>   متوفر كراج </li>
+                                <li> المنطقة: المزة </li>
+                                <li>  مفروشة </li>
+                                <li> بلكون 22م</li>
+                                <li> الملكية: طابو </li>
+                            </ul>
+                            <div class="images">
+                                <img src="./pictures/Awesome Interior Design Ideas That Will Take Your House To Another Level.jpeg">
+                                <img src="./pictures/Salon marocain.jpeg">
+                                <img src="./pictures/تنزيل (19)new.jpeg">
+                             </div>
+                        </div>
+                    </td>
+                 </tr>  
+            </tbody>
+        </table>
+    </section>
+    <br>
+    <center>
+        <button id="submitButton" disabled onclick="showForm()">متابعة</button>
+        <br><br>
+        <div id="formContainer" class="hidden">
+            <form id="propertyForm" onsubmit="return validateForm(event)">
+                <label for="fullName">:الاسم الكامل</label>
+                <br>
+                <input type="text" id="fullName" name="fullName" pattern="[أ-ي\s]+" required>
+                <br><br>
+                <label for="nationalId">:الرقم الوطني</label>
+                <br>
+                <input type="text" id="nationalId" name="nationalId" pattern="[0-9]{11}" required>
+                <br><br>
+                <label for="birthdate">:تاريخ الميلاد</label>
+                <br>
+                <input type="date" id="birthdate" name="birthdate" required>
+                <br><br>
+                <label for="mobileNumber">:رقم الهاتف المحمول</label>
+                <br>
+                <input type="tel" id="mobileNumber" name="mobileNumber" pattern="09[0-9]{8}" required>
+                <br><br>
+                <label for="email">:البريد الإلكتروني</label>
+                <br>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+                <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>
+                <br>
+                <button type="submit">إرسال</button>
+            </form>
+        </div>
+    </center>
+    <div id="apartmentDetails" class="hidden"></div>
+</body>
+</html>

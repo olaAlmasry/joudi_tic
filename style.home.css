@@ -1,0 +1,42 @@
+*{ 
+    margin:0;
+}
+.mt_table{
+    background-color:white;
+    display:flex;
+    justify-content: center;
+}
+.container{ 
+    width:80%;
+}
+table{ 
+    width:100%;
+}
+table thead{
+    background-color:rgb(135, 177, 235)
+}
+table thead{
+    height:50px;
+}
+table tbody tr{
+    background-color:rgb(215, 244, 250)
+
+}
+table tbody tr{
+    text-align: center;
+    width:200px;
+}
+p{
+    font-size: 30px;
+    text-align: center;
+}
+td,th {
+    font-size: 20px;
+  }
+  img{
+    text-align: center;
+    width: 150px;
+  }
+a{
+    font-size: 25px;
+}
